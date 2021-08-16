@@ -21,7 +21,7 @@ def obj_detection(my_img):
     column1.pyplot(use_column_width=True)
 
     # YOLO model
-    net = cv2.dnn.readNet("custom-yolov4-detector_best.weights","cfg/yolo4.cfg")
+    net = cv2.dnn.readNet("custom-yolov4-detector_best.weights","yolo4.cfg")
 
     #labels = []
     f= os.path.abspath('coco.names')
