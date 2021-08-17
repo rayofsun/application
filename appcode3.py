@@ -125,7 +125,7 @@ def main():
         obj_detection(my_img)
 
     elif choice == "See an illustration":
-      my_img = Image.open("/content/20210622_182407.jpg")
+      my_img = Image.open("23.jpg")
       obj_detection(my_img)
 
 if __name__ == '__main__':
