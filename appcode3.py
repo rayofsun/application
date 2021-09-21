@@ -110,7 +110,7 @@ def obj_detection(my_img):
 def main():
     
     st.title("African Hairstyles Detection")
-    st.write("Description:This is a computer vision based app that detects 3 different African\n hairstyles(African_ponytail,Cornrows,Bantu Knots) to promote African culture and pride")
+    st.write("Description:This is a computer vision based app that detects 3 different African hairstyles(African_ponytail,Cornrows,Bantu Knots) to promote African culture and pride")
 
     choice = st.radio("", ("See an illustration","Choose an image of your choice"))
     #st.write()
